@@ -1,0 +1,42 @@
+# MATLAB autosave
+code/matlab/*.asv
+
+# External resources
+resources/external/
+
+# But keep the folder via .gitkeep
+!resources/external/.gitkeep
+
+# Unused data
+data/notinuse/
+
+# Ignore contents of raw & processed
+data/raw/*
+data/processed/*
+
+# But keep the folder via .gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore all figures
+figures/**
+
+# Re-allow directory structure (but not files yet)
+!figures/
+!figures/phenology/
+
+# Explicitly allow selected files
+!figures/bathym_map.png
+!figures/SmartBuoy_CEFAS_timeseries_all.png
+!figures/HPLC_map_byseason.png
+!figures/HPLC_matchups.png
+!figures/pH_map_all.png
+!figures/cycles_chla.png
+!figures/scenes_chlorophyll_avg7days.png
+!figures/phenology/phenology_season_1_metric_1.pdf
+!figures/oc_carbon_total_month_3_bicep_npp_9km.png
+!figures/oc_carbon_distrib_month_and_year_bicep_npp_9km.png
+!figures/oc_PFT_BICEP.png
+
+# macOS junk
+.DS_Store
