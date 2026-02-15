@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18647639.svg)](https://doi.org/10.5281/zenodo.18647639)
+
 # MATLAB Toolbox for a North Sea Ecosystem Baseline Assessment
 
 A MATLAB toolbox for conducting ecological baseline assessments in support of an offshore geological CO₂ storage (GCS) project in the North Sea.
